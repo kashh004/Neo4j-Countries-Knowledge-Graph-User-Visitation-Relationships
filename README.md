@@ -19,20 +19,3 @@ To install the required Python library:
 
 ```bash
 pip install py2neo
-Project Structure
-
-	•	neo4j_countries_knowledge_graph.ipynb: Jupyter notebook containing the Python code that builds the knowledge graph using Neo4j.
-	•	README.md: This file that describes the project.
-
-Data Model
-
-	•	Users: Represent individuals who visit different countries (e.g., Alice, Bob, Carol).
-	•	Countries: Represent the countries visited by users (e.g., France, Germany, Japan).
-	•	Continents: Represent the continents that countries belong to (e.g., Europe, Asia, South America).
-	•	Languages: Represent the official languages spoken in each country (e.g., French, German, Japanese).
-
-Relationships
-
-	•	VISITED: Between User and Country (e.g., Alice -> VISITED -> France).
-	•	BELONGS_TO: Between Country and Continent (e.g., France -> BELONGS_TO -> Europe).
-	•	SPEAKS: Between Country and Language (e.g., France -> SPEAKS -> French).
